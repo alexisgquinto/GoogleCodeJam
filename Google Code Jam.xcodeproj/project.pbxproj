@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		5E3B50DA245EAEF300B01F4A /* Vestigium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E745892245E66960001720C /* Vestigium.cpp */; };
 		5E3B50E6245EAF4800B01F4A /* NestingDepth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B50AA245EA69900B01F4A /* NestingDepth.cpp */; };
-		5E3B50EE245F14B600B01F4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B50ED245F14B600B01F4A /* main.cpp */; };
+		5E3B50EE245F14B600B01F4A /* ParentingPartneringReturns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B50ED245F14B600B01F4A /* ParentingPartneringReturns.cpp */; };
+		5E3B51002463930900B01F4A /* ESAbATAd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B50FF2463930900B01F4A /* ESAbATAd.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5E3B50FB2463930900B01F4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +57,9 @@
 		5E3B50D3245EAEED00B01F4A /* Vestigium */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vestigium; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3B50DF245EAF3C00B01F4A /* NestingDepth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NestingDepth; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3B50EB245F14B600B01F4A /* ParentingPartneringReturns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParentingPartneringReturns; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3B50ED245F14B600B01F4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E3B50ED245F14B600B01F4A /* ParentingPartneringReturns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParentingPartneringReturns.cpp; sourceTree = "<group>"; };
+		5E3B50FD2463930900B01F4A /* ESAbATAd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ESAbATAd; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B50FF2463930900B01F4A /* ESAbATAd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ESAbATAd.cpp; sourceTree = "<group>"; };
 		5E745892245E66960001720C /* Vestigium.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vestigium.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +79,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5E3B50E8245F14B600B01F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B50FA2463930900B01F4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,7 +114,7 @@
 		5E3B50EC245F14B600B01F4A /* ParentingPartneringReturns */ = {
 			isa = PBXGroup;
 			children = (
-				5E3B50ED245F14B600B01F4A /* main.cpp */,
+				5E3B50ED245F14B600B01F4A /* ParentingPartneringReturns.cpp */,
 			);
 			path = ParentingPartneringReturns;
 			sourceTree = "<group>";
@@ -103,11 +122,20 @@
 		5E3B50F2245F203B00B01F4A /* QualificationRound */ = {
 			isa = PBXGroup;
 			children = (
+				5E3B50FE2463930900B01F4A /* ESAbATAd */,
 				5E3B50EC245F14B600B01F4A /* ParentingPartneringReturns */,
 				5E3B50E0245EAF3C00B01F4A /* NestingDepth */,
 				5E3B50D4245EAEED00B01F4A /* Vestigium */,
 			);
 			path = QualificationRound;
+			sourceTree = "<group>";
+		};
+		5E3B50FE2463930900B01F4A /* ESAbATAd */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B50FF2463930900B01F4A /* ESAbATAd.cpp */,
+			);
+			path = ESAbATAd;
 			sourceTree = "<group>";
 		};
 		5E74587E245E66560001720C = {
@@ -124,6 +152,7 @@
 				5E3B50D3245EAEED00B01F4A /* Vestigium */,
 				5E3B50DF245EAF3C00B01F4A /* NestingDepth */,
 				5E3B50EB245F14B600B01F4A /* ParentingPartneringReturns */,
+				5E3B50FD2463930900B01F4A /* ESAbATAd */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +219,23 @@
 			productReference = 5E3B50EB245F14B600B01F4A /* ParentingPartneringReturns */;
 			productType = "com.apple.product-type.tool";
 		};
+		5E3B50FC2463930900B01F4A /* ESAbATAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B51012463930900B01F4A /* Build configuration list for PBXNativeTarget "ESAbATAd" */;
+			buildPhases = (
+				5E3B50F92463930900B01F4A /* Sources */,
+				5E3B50FA2463930900B01F4A /* Frameworks */,
+				5E3B50FB2463930900B01F4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESAbATAd;
+			productName = ESAbATAd;
+			productReference = 5E3B50FD2463930900B01F4A /* ESAbATAd */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +252,9 @@
 						CreatedOnToolsVersion = 11.4.1;
 					};
 					5E3B50EA245F14B600B01F4A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					5E3B50FC2463930900B01F4A = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -226,6 +275,7 @@
 				5E3B50D2245EAEED00B01F4A /* Vestigium */,
 				5E3B50DE245EAF3C00B01F4A /* NestingDepth */,
 				5E3B50EA245F14B600B01F4A /* ParentingPartneringReturns */,
+				5E3B50FC2463930900B01F4A /* ESAbATAd */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3B50EE245F14B600B01F4A /* main.cpp in Sources */,
+				5E3B50EE245F14B600B01F4A /* ParentingPartneringReturns.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B50F92463930900B01F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B51002463930900B01F4A /* ESAbATAd.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +357,22 @@
 			name = Debug;
 		};
 		5E3B50F1245F14B600B01F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E3B51022463930900B01F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E3B51032463930900B01F4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +515,15 @@
 			buildConfigurations = (
 				5E3B50F0245F14B600B01F4A /* Debug */,
 				5E3B50F1245F14B600B01F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3B51012463930900B01F4A /* Build configuration list for PBXNativeTarget "ESAbATAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B51022463930900B01F4A /* Debug */,
+				5E3B51032463930900B01F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
